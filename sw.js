@@ -55,7 +55,8 @@ self.addEventListener("activate", function (event) {
     })
   );
 });
-//comment
+
+
 self.addEventListener("fetch", function (event) {
   //fires whenever the app requests a resource (file or data)
   // console.log(`SW: Fetching ${event.request.url}`);
