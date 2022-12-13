@@ -247,4 +247,48 @@ p {
   color: #6d4fd8;
 }
 
+.contact input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #6d4fd8; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+  }
+  .contact label{
+    color:#6d4fd8
+  }
+ ::placeholder{
+    color:#6d4fd8;
+  }
 
+  .contact input[type=submit] {
+  background-color: #6d4fd8;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact input[type=submit]:hover {
+    background-color: #6d4fd8;
+  }
+  
+  .contact.container {
+  border-radius: 5px;
+  background-color: #d8cdff;
+  padding: 20px;
+  }
+
+  .pages h4{
+    padding-bottom: 30px;
+    max-width: 70%;
+  }
+
+  .pages h6{
+    text-align: center;
+  }
