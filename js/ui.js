@@ -35,3 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
 //progressions.innerHTML += html;
 
 //};
+
+//remove task from DOM
+//const removeProgression = (id) => {
+//  const progression = document.querySelector(`.progression[data-id =${id}]`);
+  // console.log(task);
+//  progression.remove();
+//};
